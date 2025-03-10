@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name='eng209'
+version='1.0.1'
+authors=[{ 'name'='ENG209' }]
+requires-python = '>=3.10'
+dependencies=['numpy>=2.1', 'pandas>=2.2', 'matplotlib>=3.9', 'scikit-learn>=1.5' ]
